@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">DevOps Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Anshit Verma</span></h1>
+            <h2>DevOps Engineer</h2>
+            <p>Automating Infrastructure | CI/CD | Cloud Solutions</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Passionate DevOps Engineer with experience in cloud platforms,
+            automation, infrastructure as code, container orchestration,
+            and CI/CD pipelines.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+
+        <div class="skill">
+            <span>AWS</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Docker & Kubernetes</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Terraform</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Jenkins</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:88%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Associate System Engineer</h3>
+                <p>2025 - Present</p>
+                <p>Designed scalable cloud infrastructure and automated deployments.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>DevOps Engineer</h3>
+                <p>2019 - 2022</p>
+                <p>Implemented Kubernetes clusters and CI/CD workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="card">
+                <h3>Multi-Cloud Deployment</h3>
+                <p>Automated AWS and Azure deployment using Terraform.</p>
+            </div>
+
+            <div class="card">
+                <h3>Kubernetes Monitoring</h3>
+                <p>Integrated Prometheus and Grafana monitoring stack.</p>
+            </div>
+
+            <div class="card">
+                <h3>CI/CD Automation</h3>
+                <p>Built Jenkins pipelines for microservices deployment.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 DevOps Engineer Portfolio</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
